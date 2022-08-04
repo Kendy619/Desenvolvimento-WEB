@@ -68,12 +68,12 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color:  #000000;  
 }
 
 li {
     float: left;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #000000;
 }
 
 li:last-child {
@@ -89,7 +89,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: rgb(10, 10, 10);
+    background-color: #2A6E00;
 }
 
 .active {
@@ -102,30 +102,25 @@ li a:hover:not(.active) {
     display: table;
 }
 
-
-
-.header {
-    background-color: rgb(10, 10, 10);
-    color: #ffffff;
-    padding: 15px;
-}
-
 .menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.menu li {
+ .menu li {
     padding: 8px;
     margin-bottom: 7px;
-    background-color: #33b5e5;
+    background-color: #2A6E00;
     color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
+    box-shadow: 0 1px 3px  #ffffff, 0 1px 2px  #ffffff;
+} 
 
 .menu li:hover {
-    background-color: #0099cc;
+    background-color: #2A6E00;
+}
+.nav-list{
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
