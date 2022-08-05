@@ -4,7 +4,7 @@
     padding: 15px;
 }
 
-#footer{
+.footer-info{
     background-color: #04AA6D;
     padding:0px; 
     margin:0px;
@@ -12,5 +12,12 @@
     padding-top:15px;
     text-align:center;
     padding-bottom:15px;
-    color:white !important
+    color:white !
+}
+.footer-social{
+    color: #ffffff;
+}
+.footer-image{
+    width: 33px;
+    height: 31px;
 }

@@ -61,7 +61,12 @@
 /* 9. Footer
 /**********************************/
 
-
+.main-content{
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    
+}
 
 ul {
     list-style-type: none;
@@ -118,6 +123,12 @@ li a:hover:not(.active) {
 
 .menu li:hover {
     background-color: #2A6E00;
+}
+
+#nomemarca{
+        left: 10%;
+        padding: 10px;
+        color: #2A6E00;
 }
 .nav-list{
     text-align: center;
