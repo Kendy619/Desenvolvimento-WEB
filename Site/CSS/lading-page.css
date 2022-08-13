@@ -37,15 +37,10 @@
 }
 
 .nav_link {
-    padding: 20px 25px;
+    padding: 12px 25px;
     font-size: larger;
-    box-shadow: 0 1px 3px #2A6E00, 0 1px 2px #2A6E00;
+    box-shadow: 0 1px 8px #2A6E00, 0 1px 2px #2A6E00;
 }
-
-
-
-
-
 
 /**********************************/
 /*          QuemSomos
@@ -73,8 +68,6 @@
 
 }
 
-
-
 /**********************************/
 /*          Ceramicas
 /**********************************/
@@ -100,8 +93,6 @@
     text-align: center;
     margin: 10px 0 5px 0;
 }
-
-
 
 /**********************************/
 /*             Planos
